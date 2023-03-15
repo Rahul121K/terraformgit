@@ -9,7 +9,7 @@ acl = "private"
 
 provider "aws" {
     access_key=var.accesskey
-    secret_key=var.secretKey
+    secret_key=var.secretkey
   region = "eu-west-1"
 }
 
